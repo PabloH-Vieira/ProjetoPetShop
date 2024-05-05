@@ -1,0 +1,119 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+
+#topo {
+    background-color:#F58951 ;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    width: 150px; 
+    height: auto;
+    
+}
+
+#busca input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+    background-size: cover; 
+    background-position: center; 
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(25% - 40px); 
+}
+
+.card img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+#pets {
+    padding: 20px 0;
+}
+
+#pets h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#pets table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#pets td {
+    padding: 10px;
+    text-align: center;
+    background-color: #68A694;
+}
+
+#pets td img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color:#F58951;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 100px) {
+    .container {
+        width: 100;
+    }
+}    
