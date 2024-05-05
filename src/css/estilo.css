@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
     margin: 0;
@@ -7,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl,
 
 body {
     font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: white;
     color: #333;
 }
 
@@ -57,36 +60,65 @@ body {
 
 #cards {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px 0;
+    max-width: 100%;
+}
+
+#titulo{
+    font-family: 'Poetsen One', sans-serif;
+    text-align: center;
+    color: #F58951;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
-    width: calc(25% - 40px); 
+    width: 25%;
+    cursor: pointer;
 }
 
 .card img {
-    max-width: 80px;
+    max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
-
-#pets {
-    padding: 20px 0;
+.card span{
+    font-size: 1.5rem;
+    font-family: 'Montserrat','Arial', sans-serif;
+    color: #68A694;
 }
+
+#wavy{
+    padding-top: 50px;
+    background:url(/src/img/wavy.png);
+    min-height: 1110px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+#wavy #titulo{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#pets{
+    padding: 0px;
+    margin-top: 200px;
+}
+
 
 #pets h4 {
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 #pets table {
@@ -95,9 +127,10 @@ body {
 }
 
 #pets td {
-    padding: 10px;
+    /*padding: 10px;*/
     text-align: center;
-    background-color: #68A694;
+    padding: 0px;
+    /*background-color: #68A694;*/
 }
 
 #pets td img {
@@ -105,6 +138,59 @@ body {
     height: auto;
 }
 
+#pets td p{
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+
+#destaque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#destaque tr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#destaque td{
+    padding: 20px;
+    text-align: center;
+}
+
+#destaque fieldset{
+    font-family: "Montserrat", 'Arial', sans-serif;
+    color: #F58951;
+    max-width: 150px;
+}
+
+#destaque fieldset .preco{
+    font-weight: 1000;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+#destaque button{
+    border: none;
+    background-color: #F58951;
+    color: white;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 8px;
+    cursor: pointer;
+    width: 150px;
+}
+
+fieldset{
+    border: none;
+    margin-bottom: 40px;
+}
 
 footer {
     background-color:#F58951;
