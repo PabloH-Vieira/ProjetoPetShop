@@ -678,7 +678,7 @@ footer {
             background-color: #F58951; /* Cor de fundo do footer */
             color: white; /* Cor do texto */
             padding: 10px; /* Espaçamento interno */
-            max-width: 800px;
+            max-width: 100%;
           }
         
           .container {
