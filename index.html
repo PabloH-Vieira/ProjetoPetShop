@@ -19,13 +19,22 @@
             <section id="busca">
                 <input type="text" id="busca" placeholder="Digite sua Busca">
             </section>
+            <div id="cadastro">
+                <img src="/src/img/patinha.png">
+                <a href="#login">Entre ou Cadastre-se</a>
+            </div>
+        </div>
             <nav id="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#pets">Pets</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#login">Entre ou Cadastre-se</a></li>
+                <button id="btnMob">
+                    <span id="hamburg"></span>
+                </button>
+                <ul id="menuop">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#pets">Pets</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
             </nav>
         </div>
             <!--Banner com Slideshow-->
@@ -188,16 +197,34 @@
             </section>
     </div>        
 
-        <footer>
-            <h5>Sobre nós</h5>
-            <span>Como surgimos<br>Missão e Valores</span>
-            <h5>Adotar</h5>
-            <span>Como é o processo? <br>Adote um melhor amigo!! <br>Como colocar um melhor amigo para adoção?</span>
-            <h5>Contatos</h5>
-            <span>melhoramigo@gmail.com<br>(11) 9 4002-8922</span>
-            <br>
-            <h5>@2024-todos os direitos reservados.</h5>
-        </footer>
+    <footer>
+        <div class="container">
+            <div class="coluna">
+                <h5>Sobre nós</h5>
+                <ul>
+                    <li>Como surgimos</li>
+                    <li>Missão e Valores</li>
+                </ul>
+            </div>
+            <div class="coluna">
+                <h5>Adotar</h5>
+                <ul>
+                  <li>Como é o processo?</li>
+                  <li>Adote um melhor amigo!</li>
+                  <li>Como colocar um melhor amigo para adoção?</li>
+                </ul>
+              </div>
+              <div class="coluna">
+                <h5>Contatos</h5>
+                <ul>
+                  <li>melhoramigo@gmail.com</li>
+                  <li>(11)94002-8922</li>
+                </ul>
+              </div>
+              </div>
+              <h4>@2024 - Todos os direitos reservados<h4>
+          </footer>
+
     <!--JAVASCRIPT EXTERNO-->
     <script src="./src/script/script.js"></script>
 </body>
